@@ -125,7 +125,7 @@ if has appimage; then
     echo "no pinned AppImage runtime for $ARCH; build the AppImage on x86_64 or aarch64" >&2
     exit 2
   fi
-  APPDIR="$WORK/crocwork Slides.AppDir"
+  APPDIR="$WORK/DeckCraft.AppDir"
   cp -R "$STAGE" "$APPDIR"
   ln -s usr/bin/deckcraft "$APPDIR/AppRun"
   cp "$HERE/$APP_ID.desktop" "$APPDIR/$APP_ID.desktop"

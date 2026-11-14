@@ -55,19 +55,19 @@
     [
       "-1",
       "Software\\Classes\\.pptx\\OpenWithProgids",
-      "crocwork Slides.Presentation",
+      "DeckCraft.Presentation",
       ""
     ],
     [
       "-1",
       "Software\\Classes\\.potx\\OpenWithProgids",
-      "crocwork Slides.Presentation",
+      "DeckCraft.Presentation",
       ""
     ],
     [
       "-1",
       "Software\\Classes\\.ppsx\\OpenWithProgids",
-      "crocwork Slides.Presentation",
+      "DeckCraft.Presentation",
       ""
     ],
     [

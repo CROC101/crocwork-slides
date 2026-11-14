@@ -58,7 +58,7 @@
         </File>
 
         <!-- .deckcraft: crocwork Slides's own format. -->
-        <ProgId Id="crocwork Slides.Presentation" Description="crocwork Slides Presentation" Icon="DeckcraftExe" IconIndex="0">
+        <ProgId Id="DeckCraft.Presentation" Description="crocwork Slides Presentation" Icon="DeckcraftExe" IconIndex="0">
           <Extension Id="deckcraft" ContentType="application/x-deckcraft">
             <Verb Id="open" Command="Open" TargetFile="DeckcraftExe" Argument="&quot;%1&quot;" />
           </Extension>
@@ -71,9 +71,9 @@
         <RegistryValue Root="HKMU" Key="Software\Classes\Applications\deckcraft.exe\SupportedTypes" Name=".pptx" Value="" Type="string" />
         <RegistryValue Root="HKMU" Key="Software\Classes\Applications\deckcraft.exe\SupportedTypes" Name=".potx" Value="" Type="string" />
         <RegistryValue Root="HKMU" Key="Software\Classes\Applications\deckcraft.exe\SupportedTypes" Name=".ppsx" Value="" Type="string" />
-        <RegistryValue Root="HKMU" Key="Software\Classes\.pptx\OpenWithProgids" Name="crocwork Slides.Presentation" Value="" Type="string" />
-        <RegistryValue Root="HKMU" Key="Software\Classes\.potx\OpenWithProgids" Name="crocwork Slides.Presentation" Value="" Type="string" />
-        <RegistryValue Root="HKMU" Key="Software\Classes\.ppsx\OpenWithProgids" Name="crocwork Slides.Presentation" Value="" Type="string" />
+        <RegistryValue Root="HKMU" Key="Software\Classes\.pptx\OpenWithProgids" Name="DeckCraft.Presentation" Value="" Type="string" />
+        <RegistryValue Root="HKMU" Key="Software\Classes\.potx\OpenWithProgids" Name="DeckCraft.Presentation" Value="" Type="string" />
+        <RegistryValue Root="HKMU" Key="Software\Classes\.ppsx\OpenWithProgids" Name="DeckCraft.Presentation" Value="" Type="string" />
 
         <RegistryValue Root="HKMU" Key="Software\Microsoft\Windows\CurrentVersion\App Paths\deckcraft.exe" Value="[#DeckcraftExe]" Type="string" />
       <RegistryValue Root="HKMU" Key="Software\crocwork Slides" Name="InstallDir" Value="[INSTALLFOLDER]" Type="string" />

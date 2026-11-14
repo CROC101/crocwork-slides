@@ -1911,7 +1911,7 @@ fn chartex_waterfall_reads_and_round_trips() {
     assert_eq!(again.subtotals, c.subtotals);
 }
 
-/// New Office 2016 charts made in DeckCraft are written as chartEx parts that read back as the
+/// New Office 2016 charts made in crocwork Slides are written as chartEx parts that read back as the
 /// same type, data and options.
 #[test]
 fn chartex_new_charts_save_as_their_own_type() {

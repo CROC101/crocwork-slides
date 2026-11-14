@@ -20,7 +20,7 @@ the AI models named in `Co-Authored-By` trailers.
   first or last commit date. The name toggle cycles **Username → Display name → Real name**; a
   missing name falls back to `@username`. Alphabetical sorting is case-insensitive and ignores the `@`.
 
-## In DeckCraft
+## In crocwork Slides
 
 - The About window is the `"about"` dialog in `crates/ui-egui/src/dialogs.rs`; its `tab` field (`about`, `contributors`, `models`) picks the tab.
 

@@ -2,9 +2,9 @@
 
 Usage: python make_legacy_font.py legacy-semibold.ttf legacy-regular.ttf  (needs fontTools)
 
-legacy-semibold.ttf: typographic family "DeckCraft Legacy", style "Semibold" (name IDs 16/17,
-weight 600); Windows family "DeckCraft Legacy Semibold", style "Regular" (name IDs 1/2), as fonts
-like Segoe UI Semibold are named. legacy-regular.ttf: the family's Regular ("DeckCraft Legacy",
+legacy-semibold.ttf: typographic family "crocwork Slides Legacy", style "Semibold" (name IDs 16/17,
+weight 600); Windows family "crocwork Slides Legacy Semibold", style "Regular" (name IDs 1/2), as fonts
+like Segoe UI Semibold are named. legacy-regular.ttf: the family's Regular ("crocwork Slides Legacy",
 "Regular", weight 400), named only by IDs 1/2 as Segoe UI's regular file is. Glyphs: .notdef and
 a square for "A".
 """
@@ -38,18 +38,18 @@ def build(path, names, weight):
 
 
 build(sys.argv[1], {
-    "familyName": "DeckCraft Legacy Semibold",
+    "familyName": "crocwork Slides Legacy Semibold",
     "styleName": "Regular",
-    "typographicFamily": "DeckCraft Legacy",
+    "typographicFamily": "crocwork Slides Legacy",
     "typographicSubfamily": "Semibold",
-    "uniqueFontIdentifier": "DeckCraft Legacy Semibold",
-    "fullName": "DeckCraft Legacy Semibold",
+    "uniqueFontIdentifier": "crocwork Slides Legacy Semibold",
+    "fullName": "crocwork Slides Legacy Semibold",
     "psName": "DeckCraftLegacy-Semibold",
 }, 600)
 build(sys.argv[2], {
-    "familyName": "DeckCraft Legacy",
+    "familyName": "crocwork Slides Legacy",
     "styleName": "Regular",
-    "uniqueFontIdentifier": "DeckCraft Legacy Regular",
-    "fullName": "DeckCraft Legacy",
+    "uniqueFontIdentifier": "crocwork Slides Legacy Regular",
+    "fullName": "crocwork Slides Legacy",
     "psName": "DeckCraftLegacy-Regular",
 }, 400)

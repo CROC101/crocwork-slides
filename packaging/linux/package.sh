@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build and package DeckCraft for Linux (<arch> is x86_64 or aarch64, or riscv64 when cross-compiling):
+# Build and package crocwork Slides for Linux (<arch> is x86_64 or aarch64, or riscv64 when cross-compiling):
 #
 #   $DIST/deckcraft-<version>-linux-<arch>.AppImage  any distro with glibc >= the build host's
 #   $DIST/deckcraft-<version>-linux-<arch>.AppImage.zsync  delta updates (needs zsyncmake)
@@ -43,10 +43,10 @@ case "$ARCH" in
   aarch64 | arm64) ARCH=aarch64; DEB_ARCH=arm64 ;;
   *) echo "unsupported architecture $ARCH" >&2; exit 2 ;;
 esac
-export DECKCRAFT_MAINTAINER="${DECKCRAFT_MAINTAINER:-DeckCraft maintainers <deckcraft@storyteller.ai>}"
+export DECKCRAFT_MAINTAINER="${DECKCRAFT_MAINTAINER:-crocwork Slides maintainers <deckcraft@storyteller.ai>}"
 BASENAME="deckcraft-$VERSION-linux-$ARCH"
 
-echo "==> DeckCraft $VERSION for Linux $ARCH ($FORMATS)"
+echo "==> crocwork Slides $VERSION for Linux $ARCH ($FORMATS)"
 
 if [[ "$SKIP_BUILD" = 0 ]]; then
   if [[ -n "${CROSS_TARGET:-}" ]]; then
@@ -125,7 +125,7 @@ if has appimage; then
     echo "no pinned AppImage runtime for $ARCH; build the AppImage on x86_64 or aarch64" >&2
     exit 2
   fi
-  APPDIR="$WORK/DeckCraft.AppDir"
+  APPDIR="$WORK/crocwork Slides.AppDir"
   cp -R "$STAGE" "$APPDIR"
   ln -s usr/bin/deckcraft "$APPDIR/AppRun"
   cp "$HERE/$APP_ID.desktop" "$APPDIR/$APP_ID.desktop"

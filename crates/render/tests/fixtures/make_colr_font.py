@@ -42,7 +42,7 @@ fb.setupGlyf({
 })
 fb.setupHorizontalMetrics({g: (1000, 0) for g in order})
 fb.setupHorizontalHeader(ascent=1000, descent=0)
-fb.setupNameTable({"familyName": "DeckCraft Colr Squares", "styleName": "Regular"})
+fb.setupNameTable({"familyName": "crocwork Slides Colr Squares", "styleName": "Regular"})
 fb.setupOS2(sTypoAscender=1000, sTypoDescender=0, usWinAscent=1000, usWinDescent=0)
 fb.setupPost()
 fb.font["COLR"] = buildCOLR({"redblue": [("big", 0), ("small", 1)], "ink": [("big", 0xFFFF)]}, version=0)

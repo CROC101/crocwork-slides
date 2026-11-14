@@ -362,7 +362,7 @@ fn owned_corpus_round_trip_keeps_parts_and_text() {
         "Amount due",
         "Ada checks the axis",
         "Owned corpus",
-        "DeckCraft tests",
+        "crocwork Slides tests",
         "https://example.org/north?q=1&x=2",
         "Open the report",
     ] {

@@ -1,7 +1,7 @@
 {
   "id": "deckcraft",
-  "name": "DeckCraft",
-  "upgradeCode": "6F9C69E7-7825-40D2-BF26-C274DA676425",
+  "name": "crocwork Slides",
+  "upgradeCode": "A141B361-605C-54AB-9AF4-69CFD5FCD247",
   "sources": [
     "deckcraft.wxs"
   ],
@@ -20,7 +20,7 @@
       "-1",
       "Software\\Classes\\Applications\\deckcraft.exe",
       "FriendlyAppName",
-      "DeckCraft"
+      "crocwork Slides"
     ],
     [
       "-1",
@@ -55,19 +55,19 @@
     [
       "-1",
       "Software\\Classes\\.pptx\\OpenWithProgids",
-      "DeckCraft.Presentation",
+      "crocwork Slides.Presentation",
       ""
     ],
     [
       "-1",
       "Software\\Classes\\.potx\\OpenWithProgids",
-      "DeckCraft.Presentation",
+      "crocwork Slides.Presentation",
       ""
     ],
     [
       "-1",
       "Software\\Classes\\.ppsx\\OpenWithProgids",
-      "DeckCraft.Presentation",
+      "crocwork Slides.Presentation",
       ""
     ],
     [
